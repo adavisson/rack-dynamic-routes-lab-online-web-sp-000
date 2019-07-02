@@ -5,7 +5,11 @@ class Application
     resp = Rack::Response.new
     req = Rack::Request.new(env)
     
-    if req.path == 
+    if req.path == ""
+      
+    else
+      
+    end
     
     resp.finish
     
