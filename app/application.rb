@@ -8,7 +8,7 @@ class Application
     if req.path == ""
       
     else
-      
+      resp.status
     end
     
     resp.finish
