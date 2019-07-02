@@ -8,7 +8,7 @@ class Application
     if req.path == ""
       
     else
-      resp.status
+      resp.status = 404
     end
     
     resp.finish
